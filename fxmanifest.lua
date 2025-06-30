@@ -1,4 +1,4 @@
--- fxmanifest.lua
+
 fx_version 'cerulean'
 game 'gta5'
 
@@ -11,7 +11,7 @@ client_scripts {
     'client/main.lua'
 }
 server_scripts {
-    '@vrp/lib/utils.lua', -- (nødvendig for vRP Tunnel/Proxy!)
+    '@vrp/lib/utils.lua', 
     'server/main.lua'
 }
 
